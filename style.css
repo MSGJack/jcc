@@ -1,0 +1,152 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    background-image: url('images/bg1.jpg');
+    margin: auto;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    background-color: black;
+    color: azure;
+    position: fixed;
+    border-bottom: 2px solid silver;
+}
+
+header .top {
+    display: flex;
+    align-items: center;
+    padding: 0 1.3rem;
+}
+
+header .logo {
+    font-size: large;
+    flex: auto;
+    color: aqua;
+}
+
+header .nav {
+    display: block;
+}
+
+header .nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav li {
+    padding: 10px;
+}
+
+.main {
+    position: relative;
+}
+
+#mission {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#mission .gaol {
+    width: 100%;
+    margin: auto;
+}
+
+#mission .cursive {
+    font-family: cursive;
+    font-size: 20px;
+}
+
+#mission h3 {
+    font-family: Judson;
+    font-size: 18px;
+}
+
+#cars {
+    margin: auto;
+}
+
+#cars h2 {
+    font-family: (Oooh Baby);
+    font-style: italic;
+    font-weight: bold;
+}
+
+#cars h3 {
+    font-family: Judson;
+}
+
+#box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.selections {
+    display: inline-block;
+    margin: 4px;
+}
+
+.selections img {
+    width: 450px;
+    height: 350px;
+}
+
+#quotes {
+    display: flex;
+    margin: 3px;
+}
+
+.ref h2 {
+    font-family: (Mea Culpa);
+    font-weight: bold;
+    font-size: 24px;
+    border: 3px solid silver;
+}
+
+.ref p {
+    color: pink;
+    font-family: Judson;
+}
+
+footer {
+    color:cyan;
+    background-color: gray;
+}
+
+footer .extra {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: .7rem;
+}
+
+#workers {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.jobs h2 {
+    font-weight: bold;
+    font-family: (The Nautical);
+    text-align: center;
+}
+
+.jobbers {
+    display: inline-block;
+    justify-content: space-evenly;
+}
+
+.jobbers img {
+    width: 250px;
+    height: 200px;
+}
+
+.jobbers p {
+    font-family: Dynalight;
+    font-size: 22px;
+}
