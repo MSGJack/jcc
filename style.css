@@ -11,7 +11,7 @@ body {
 
 header {
     width: 100%;
-    background-color: black;
+    background-color: lavenderblush;
     color: azure;
     border-bottom: 2px solid silver;
     position: fixed;
@@ -51,6 +51,7 @@ header .icon {
 
 .nav a {
     text-decoration: none;
+    color: mediumblue;
 }
 
 .main {
@@ -65,37 +66,53 @@ header .icon {
     background-image: url(images/bg3.jpg);
     background-repeat: no-repeat;
     background-position: bottom;
-    height: 500px;
+    height: 650px;
     background-size: cover;
 }
 
 #mission .goal {
-    width: 100%;
-    margin: auto;
+    
 }
 
 #mission .cursive {
     font-family: cursive;
-    font-size: 20px;
+    font-size: 2rem;
 }
 
 #mission h3 {
     font-family: Judson;
-    font-size: 18px;
+    font-size: 1.3rem;
+}
+
+#sign {
+    position: relative;
+    background-color: azure;
+    top: 75px;
+    width: 100%;
+    text-align: center;
+}
+
+.state {
+    line-height: 1.3;
 }
 
 #cars {
     margin: auto;
+    width: 80%;
+    text-align: center;
+    color: antiquewhite;
 }
 
 #cars h2 {
     font-family: (Oooh Baby);
     font-style: italic;
     font-weight: bold;
+    font-size: 2.5rem;
 }
 
 #cars h3 {
     font-family: Judson;
+    font-size: 1.5rem;
 }
 
 #box {
@@ -106,17 +123,24 @@ header .icon {
 
 .selections {
     display: inline-block;
-    margin: 4px;
+    margin: 10px;
+    border: 4px solid lightseagreen;
+    width: 30%;
 }
 
 .selections img {
-    width: 450px;
-    height: 350px;
+    width: 350px;
+    height: 250px;
 }
 
 #quotes {
-    display: flex;
-    margin: 3px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.ref {
+    text-align: center;
 }
 
 .ref h2 {
@@ -129,6 +153,17 @@ header .icon {
 .ref p {
     color: pink;
     font-family: Judson;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.list img {
+    width: 300px;
+    height: 300px;
 }
 
 footer {
