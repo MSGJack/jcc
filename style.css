@@ -64,8 +64,9 @@ header .icon {
     align-items: flex-start;
     background-image: url(images/bg3.jpg);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: bottom;
     height: 500px;
+    background-size: cover;
 }
 
 #mission .goal {
