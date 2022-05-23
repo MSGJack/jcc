@@ -203,6 +203,7 @@ footer .extra {
     justify-content: space-evenly;
     width: 46%;
     margin: 25%;
+    border: 15px solid lightcyan;
 }
 
 .jobbers img {
@@ -214,4 +215,10 @@ footer .extra {
 .jobbers p {
     font-family: 'Dynalight';
     font-size: 22px;
+}
+
+.roster {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
