@@ -148,13 +148,19 @@ header .icon {
 .ref h2 {
     font-family: 'Mea Culpa';
     font-weight: bold;
-    font-size: 24px;
+    font-size: 45px;
     border: 3px solid silver;
 }
 
 .ref p {
     color: pink;
     font-family: Judson;
+}
+
+.peeps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .list {
@@ -181,8 +187,9 @@ footer .extra {
 }
 
 #workers {
-    display: flex;
-    flex-wrap: wrap;
+    margin: auto;
+    text-align: center;
+    width: 83%;
 }
 
 .jobs h2 {
@@ -192,13 +199,16 @@ footer .extra {
 }
 
 .jobbers {
-    display: inline-block;
+    display: inline-flex;
     justify-content: space-evenly;
+    width: 46%;
+    margin: 25%;
 }
 
 .jobbers img {
     width: 250px;
     height: 200px;
+    border-radius: 50%;
 }
 
 .jobbers p {
