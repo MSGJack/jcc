@@ -96,22 +96,22 @@ header .icon {
     line-height: 1.3;
 }
 
-#cars {
+#inventory {
     margin: auto;
     width: 80%;
     text-align: center;
     color: antiquewhite;
 }
 
-#cars h2 {
+#inventory h2 {
     font-family: 'Oooh Baby';
     font-style: italic;
     font-weight: bold;
     font-size: 2.5rem;
 }
 
-#cars h3 {
-    font-family: Judson;
+#inventory h3 {
+    font-family: 'Judson';
     font-size: 1.5rem;
 }
 
@@ -154,7 +154,7 @@ header .icon {
 
 .ref p {
     color: pink;
-    font-family: Judson;
+    font-family: 'Judson';
 }
 
 .peeps {
