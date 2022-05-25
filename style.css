@@ -11,7 +11,7 @@ body {
 
 header {
     width: 100%;
-    background-color: lavenderblush;
+    background-color: mistyrose;
     color: azure;
     border-bottom: 2px solid silver;
     position: fixed;
@@ -27,8 +27,10 @@ header .top {
 header .logo {
     font-size: 1.7rem;
     flex: auto;
-    color: aqua;
-    text-align: center
+    color: black;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Dynalight';
 }
 
 header .nav {
@@ -71,7 +73,7 @@ header .icon {
 }
 
 #mission .goal {
-    color:yellow;
+    color:powderblue;
 }
 
 #mission .cursive {
@@ -87,9 +89,10 @@ header .icon {
 #sign {
     position: relative;
     background-color: azure;
-    top: 75px;
-    width: 100%;
+    top: 169px;
+    width: 40%;
     text-align: center;
+    left: 50px;
 }
 
 .state {
@@ -190,7 +193,7 @@ footer .extra {
 #workers {
     margin: auto;
     text-align: center;
-    width: 83%;
+    width: 33%;
 }
 
 .jobs h2 {
@@ -222,4 +225,8 @@ footer .extra {
 .roster {
     display: flex;
     justify-content: space-evenly;
+}
+
+@media only screen and (max-width:600px) {
+    
 }
