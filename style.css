@@ -125,10 +125,12 @@ header .icon {
 }
 
 .selections {
-    display: inline-block;
+    display: flex;
     margin: 10px;
     border: 4px solid lightseagreen;
-    width: 30%;
+    width: 100%;
+    flex-wrap: wrap;
+    flex: 0 1 100px;
 }
 
 .selections img {
@@ -153,12 +155,14 @@ header .icon {
     font-weight: bold;
     font-size: 45px;
     border: 3px solid silver;
+    background-color: seashell;
 }
 
 .ref p {
     color: pink;
     font-family: 'Judson';
-    font-size: 1,4em;
+    font-size: 1.4em;
+    margin: auto
 }
 
 .peeps {
@@ -172,6 +176,8 @@ header .icon {
     margin: 15px;
     width: 45%;
     border: 6px solid lightcyan;
+    flex-wrap: wrap;
+    flex: 0 1;
 }
 
 .list img {
@@ -203,11 +209,13 @@ footer .extra {
 }
 
 .jobbers {
-    display: inline-flex;
+    display: flex;
     justify-content: space-evenly;
-    width: 46%;
-    margin: 25%;
-    border: 15px solid lightcyan;
+    width: 45%;
+    margin: 15%;
+    border: 10px solid lightcyan;
+    flex-wrap: wrap;
+    padding: 2rem;
 }
 
 .jobbers img {
