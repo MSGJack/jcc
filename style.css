@@ -129,6 +129,7 @@ header .icon {
     width: 100%;
     flex-wrap: wrap;
     flex: 0 1 100px;
+    justify-content: center;
 }
 
 .selections img {
@@ -148,7 +149,7 @@ header .icon {
 }
 
 .ref h2 {
-    font-family: 'Mea Culpa';
+    font-family: 'Dynalight';
     font-weight: bold;
     font-size: 45px;
     border: 3px solid silver;
@@ -156,7 +157,7 @@ header .icon {
 }
 
 .ref p {
-    color: pink;
+    color: seashell;
     font-family: 'Judson';
     font-size: 1.4em;
     margin: auto
@@ -171,7 +172,7 @@ header .icon {
 .list {
     display:inline-flex;
     margin: 15px;
-    width: 45%;
+    width: 100%;
     border: 6px solid lightcyan;
     flex-wrap: wrap;
     flex: 0 1;
@@ -203,15 +204,15 @@ footer .extra {
     font-weight: bold;
     font-family: 'The Nautical';
     text-align: center;
+    border: 5px solid black;
+    width: 50%;
+    margin: auto;
+    background-color: whitesmoke;
 }
 
 .jobbers {
-    display: flex;
-    justify-content: space-evenly;
-    width: 45%;
-    margin: 15%;
+    margin: 20px%;
     border: 10px solid lightcyan;
-    flex-wrap: wrap;
     padding: 2rem;
 }
 
@@ -230,6 +231,8 @@ footer .extra {
 .roster {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 4rem;
 }
 
 @media only screen and (max-width:600px) {
