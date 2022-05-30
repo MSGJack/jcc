@@ -197,7 +197,6 @@ footer .extra {
 #workers {
     margin: auto;
     text-align: center;
-    width: 33%;
 }
 
 .jobs h2 {
@@ -205,13 +204,14 @@ footer .extra {
     font-family: 'The Nautical';
     text-align: center;
     border: 5px solid black;
-    width: 50%;
+    width: 64%;
     margin: auto;
     background-color: whitesmoke;
+    font-size: 2.2rem;
 }
 
 .jobbers {
-    margin: 20px%;
+    margin: 20px;
     border: 10px solid lightcyan;
     padding: 2rem;
 }
