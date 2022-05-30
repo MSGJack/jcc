@@ -86,7 +86,7 @@ header .icon {
 
 #sign {
     position: relative;
-    background-color: azure;
+    background-color: lightseagreen;
     top: 169px;
     width: 40%;
     text-align: center;
@@ -185,13 +185,14 @@ header .icon {
 
 footer {
     color:white;
-    background-color: gray;
+    background-color: black;
 }
 
 footer .extra {
     display: flex;
-    justify-content: space-evenly;
-    font-size: .9rem;
+    justify-content: center;
+    font-size: .8rem;
+    flex-wrap: wrap;
 }
 
 #workers {
@@ -235,7 +236,7 @@ footer .extra {
     padding: 4rem;
 }
 
-@media only screen and (max-width:400px) {
+@media only screen and (max-width:800px) {
     nav ul {
         display: flex;
         justify-content: space-around;
