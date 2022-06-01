@@ -23,7 +23,7 @@ header .top {
 }
 
 header .logo {
-    font-size: 2.4rem;
+    font-size: 3rem;
     flex: auto;
     color: black;
     text-align: center;
@@ -110,9 +110,10 @@ header .icon {
     font-style: italic;
     font-weight: bold;
     font-size: 2.5rem;
-    border: 5px solid lightskyblue;
+    border: 5px solid silver;
     width: 47%;
     margin: 20px auto;
+    background-color: black;
 }
 
 #inventory h3 {
@@ -211,9 +212,10 @@ footer .extra {
     text-align: center;
     border: 5px solid black;
     width: 64%;
-    margin: auto;
-    background-color: whitesmoke;
+    margin: 25px auto;
+    background-color: springgreen;
     font-size: 2.2rem;
+    border-radius: 10px;
 }
 
 .jobbers {
