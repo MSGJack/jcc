@@ -87,7 +87,7 @@ header .icon {
 
 #sign {
     position: relative;
-    background-color: skyblue;
+    background-color: violet;
     top: 169px;
     width: 40%;
     text-align: center;
@@ -118,7 +118,8 @@ header .icon {
 
 #inventory h3 {
     font-family: 'Judson';
-    font-size: 1.5rem;
+    font-size: 1.7rem;
+    text-decoration: underline;
 }
 
 #box {
@@ -130,11 +131,12 @@ header .icon {
 .selections {
     display: flex;
     margin: 10px;
-    border: 4px solid lightseagreen;
+    border: 5px solid darksalmon;
     width: 100%;
     flex-wrap: wrap;
     flex: 0 1 100px;
     justify-content: center;
+    border-radius: 15px;
 }
 
 .selections img {
@@ -159,6 +161,7 @@ header .icon {
     font-size: 45px;
     border: 3px solid silver;
     background-color: seashell;
+    border-radius: 15px;
 }
 
 .ref p {
@@ -181,6 +184,7 @@ header .icon {
     border: 6px solid lightcyan;
     flex-wrap: wrap;
     flex: 0 1;
+    border-radius: 10px;
 }
 
 .list img {
@@ -213,16 +217,17 @@ footer .extra {
     border: 5px solid black;
     width: 64%;
     margin: 25px auto;
-    background-color: springgreen;
+    background-color: bisque;
     font-size: 2.2rem;
     border-radius: 10px;
 }
 
 .jobbers {
     margin: 20px;
-    border: 10px solid lightcyan;
-    padding: 2rem;
+    border: 5px solid lightcyan;
+    padding: 1rem;
     background-color: black;
+    border-radius: 50px;
 }
 
 .jobbers img {
